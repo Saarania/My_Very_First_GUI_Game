@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="JumperMultiplayer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JumperMultiplayer_jar</output-path>
+    <root id="archive" name="JumperMultiplayer.jar">
+      <element id="module-output" name="JumperMultiplayer" />
+      <element id="library" level="project" name="DDM1" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/dist/lib/DDM.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

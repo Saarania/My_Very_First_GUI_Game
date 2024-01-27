@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JumperMultiplayer.jnlp">
+  <information>
+    <title>JumperMultiplayer</title>
+    <vendor>ŽÁK 6</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JumperMultiplayer.jar" size="56563" download="eager" />
+    <jar href="lib\DDM.jar" size="3915" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="JumperMultiplayer" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="cz.ddmjm.jumper.Main"  name="JumperMultiplayer" />
+  <update check="always"/>
+</jnlp>

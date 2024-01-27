@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JumperMultiplayer">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/JumperMultiplayer.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
